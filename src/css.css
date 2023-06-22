@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Hide Scroll for Chrome, Edge, and Safari*/
+
+.hideScroll::-webkit-scrollbar {
+  width: 15px;
+}
+
+.scrolled.scrollSlideLeft{
+  @apply animate-slideLeft opacity-100;
+}
+
+.scrolled.scrollSlideRight{
+  @apply animate-slideRight opacity-100;
+}
+
+.scrolled.scrollSlideDown{
+  @apply animate-slideDown opacity-100;
+}
+
+.scrolled.scrollSlideUp{
+  @apply animate-slideUp opacity-100;
+}
+
+.scrolled.scrollSlideLeftSlow{
+  @apply animate-slideLeftSlow opacity-100;
+}
+
+.scrolled.scrollSlideRightSlow{
+  @apply animate-slideRightSlow opacity-100;
+}
+
+.scrolled.scrollSlideDownFast{
+  @apply animate-slideDownFast opacity-100;
+}
+
+.scrolled.scrollSlideUpFast{
+  @apply animate-slideUpFast opacity-100;
+}
+
+
+.text-shadow{
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+}
+
+/* Only works for parent > child, not sibling */
+
+.test2:hover > .test{
+  @apply animate-spin;
+}
+
+.scrolled{
+  /* opacity: 1; */
+}
+
+.card-radial-gradient{
+  background: radial-gradient(square, rgba(255,255,255,0), white);
+  opacity: 40%;
+}
