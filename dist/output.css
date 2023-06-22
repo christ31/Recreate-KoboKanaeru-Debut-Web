@@ -818,10 +818,6 @@ video {
   z-index: 50;
 }
 
-.m-12 {
-  margin: 3rem;
-}
-
 .m-2 {
   margin: 0.5rem;
 }
@@ -932,6 +928,10 @@ video {
   margin-top: 0.5rem;
 }
 
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
 .mt-\[230px\] {
   margin-top: 230px;
 }
@@ -958,6 +958,10 @@ video {
 
 .mt-\[75px\] {
   margin-top: 75px;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
 }
 
 .inline-block {
@@ -1099,10 +1103,6 @@ video {
 
 .w-2\/5 {
   width: 40%;
-}
-
-.w-\[1000px\] {
-  width: 1000px;
 }
 
 .w-\[100px\] {
@@ -2351,5 +2351,9 @@ video {
 @media (min-width: 1024px) {
   .lg\:flex {
     display: flex;
+  }
+
+  .lg\:p-4 {
+    padding: 1rem;
   }
 }
