@@ -6,3 +6,4 @@ https://c31.web.id/Recreate-KoboKanaeru-Debut-Web/credit.html
 
 Link video debut: https://www.youtube.com/watch?v=-BvizyVVhxw
 
+![Screenshot from 2023-06-22 20-42-37](https://github.com/christ31/Recreate-KoboKanaeru-Debut-Web/assets/37174502/35bfe979-f39e-4f75-99d6-e3a20ab9a9e3)
